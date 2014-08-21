@@ -1,1 +1,12 @@
-{}
+{
+	"A": "amphere",
+	"C": "celcius",
+	"count": "integer count",
+	"GB": "gigabyte",
+	"KB": "kilobyte",
+	"ms": "millisecond",
+	"RPM": "revolutions per minute",
+	"s": "second",
+	"utilization": "percentage utilization",
+	"V": "volt"
+}
