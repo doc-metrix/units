@@ -1,12 +1,17 @@
 {
 	"A": "amphere",
 	"C": "celcius",
-	"count": "integer count",
+    "disk read": "reads from the disk drive",
+    "disk sector": "sectors on the disk drive",
+    "disk write": "writes to the disk drive",
 	"GB": "gigabyte",
+    "hugepages": "pages in memory that are larger than the default page size",
+    "I/O": "disk input and output",
 	"KB": "kilobyte",
 	"ms": "millisecond",
 	"RPM": "revolutions per minute",
+    "processes and threads": "CPU processes and threads",
 	"s": "second",
-	"utilization": "percentage utilization",
+	"utilization": "percentage of the measure that the device is in use",
 	"V": "volt"
 }
