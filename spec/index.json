@@ -8,6 +8,7 @@
     "hugepages": "pages in memory that are larger than the default page size",
     "I/O": "disk input and output",
 	"KB": "kilobyte",
+    "MB/s": "megabytes per second",
 	"ms": "millisecond",
 	"RPM": "revolutions per minute",
     "processes and threads": "CPU processes and threads",
