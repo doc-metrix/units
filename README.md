@@ -26,7 +26,7 @@ Units
 		*	[s](#s)
 	- 	[Other](#other)
 		* 	[I/O](#io)
-		*	[RPM](#rpm)
+		*	[rpm](#rpm)
 		*	[reads](#reads)
 		*	[sector](#sectors)
 		*	[write](#writes)
@@ -117,7 +117,7 @@ seconds: unit of measurement for time.
 Input and output.
 
 
-#### RPM
+#### rpm
 
 Revolutions per minute.
 
