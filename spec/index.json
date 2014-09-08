@@ -10,7 +10,7 @@
 	"KB": "kilobyte",
     "MB/s": "megabytes per second",
 	"ms": "millisecond",
-	"RPM": "revolutions per minute",
+	"rpm": "revolutions per minute",
     "processes and threads": "number of CPU processes and threads",
 	"s": "second",
 	"utilization": "describes a unitless value indicating the extent to which a device is utilized",
