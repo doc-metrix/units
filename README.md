@@ -31,6 +31,7 @@ Units
 		*	[sector](#sectors)
 		*	[write](#writes)
 		*	[utilization](#utilization)
+1. 	[license](#license)
 
 
 ## Units
