@@ -38,6 +38,7 @@ Units
 A metric may have one of the following units... 
 
 
+===
 ### Current
 
 #### A
@@ -45,6 +46,7 @@ A metric may have one of the following units...
 [ampere](http://en.wikipedia.org/wiki/Ampere): the amount of electric charge passing a point in an electric circuit per unit time.
 
 
+===
 ### Voltage
 
 #### V
@@ -52,6 +54,7 @@ A metric may have one of the following units...
 [volt](http://en.wikipedia.org/wiki/Volt): the difference in electric potential between two points of a conducting wire when an electric current of one ampere dissipates one watt of power between those points.
 
 
+===
 ### Temperature
 
 #### C
@@ -59,6 +62,7 @@ A metric may have one of the following units...
 [celsuis](http://en.wikipedia.org/wiki/Celsius): unit of measurement for temperature.
 
 
+===
 ### Digital Information
 
 #### KB
@@ -75,7 +79,7 @@ gigabyte: 1,073,741,824 bytes.
 
 megabytes per second: 1,048,576 byte per second.
 
-
+===
 ### Memory
 
 #### hugepages
@@ -83,6 +87,7 @@ megabytes per second: 1,048,576 byte per second.
 Number of pages in memory that are larger than the default page size.
 
 
+===
 ### CPU
 
 #### processes and threads
@@ -90,6 +95,7 @@ Number of pages in memory that are larger than the default page size.
 Number of CPU processes and threads.
 
 
+===
 ### Time
 
 #### ms
@@ -102,7 +108,7 @@ milliseconds: unit of measurement for time.
 seconds: unit of measurement for time.
 
 
-
+===
 ### Other
 
 
@@ -137,7 +143,7 @@ Describes a unitless value indicating the extent to which a device is utilized.
 
 
 
-
+===
 ## Contributing
 
 To contribute to the data-type specification, see the contributing [guide](https://github.com/doc-metrix/contributing). Any updates to the specification should be tagged.
