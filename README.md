@@ -81,7 +81,7 @@ gigabyte: 1,073,741,824 bytes.
 
 #### MB/s
 
-megabytes per second: 1,048,576 byte per second.
+megabytes per second: 1,048,576 bytes per second.
 
 ===
 ### Memory

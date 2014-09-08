@@ -1,7 +1,7 @@
 {
   "name": "doc-metrix-units",
   "version": "0.0.0",
-  "description": "A specification for units used in metric specifications.",
+  "description": "A specification for units found in metric specifications.",
   "authors": [
     {
       "name": "Nick Wei",
