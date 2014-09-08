@@ -27,9 +27,9 @@ Units
 	- 	[Other](#other)
 		* 	[I/O](#i-o)
 		*	[RPM](#rpm)
-		*	[disk read](#disk-read)
-		*	[disk sector](#disk-sector)
-		*	[disk write](#disk-write)
+		*	[reads](#reads)
+		*	[sector](#sectors)
+		*	[write](#writes)
 		*	[utilization](#utilization)
 
 
@@ -118,17 +118,17 @@ Revolutions per minute.
 
 #### reads
 
-Number of reads.
+Number of reads; e.g., number of reads from a disk.
 
 
 #### sectors
 
-Number of sectors.
+Number of sectors; e.g., number of sectors on a disk.
 
 
 #### writes
 
-Number of writes.
+Number of writes; e.g., number of writes from a disk.
 
 
 #### utilization
