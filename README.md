@@ -31,7 +31,10 @@ Units
 		*	[sector](#sectors)
 		*	[write](#writes)
 		*	[utilization](#utilization)
-1. 	[license](#license)
+1. 	[Contributing](#contributing)
+1. 	[Usage](#usage)
+	-	[Bower](#bower)
+1. 	[License](#license)
 
 
 ## Units
@@ -161,7 +164,7 @@ Use [semantic versioning](http://semver.org/) (semvar) for communicating version
 * 	Any specification restructuring (changing field names, removing fields, etc) should be communicated as a `major` update.
 
 
-
+===
 ## Usage
 
 The specification is stored as [JSON](http://json.org/), a lightweight data-interchange format. Many languages provide JSON support: [JavaScript](http://www.json.org/js.html), [Python](https://docs.python.org/2/library/json.html), [Go](http://golang.org/pkg/encoding/json/), [PHP](http://php.net/manual/en/book.json.php), [Java](http://json.org/java/), [Haskell](http://hackage.haskell.org/package/json), and [others](http://json.org/).
