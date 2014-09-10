@@ -1,10 +1,7 @@
 {
 	"A": "ampere",
 	"C": "celcius",
-    "reads": "number of reads",
-    "sectors": "number of sectors",
-    "writes": "number of writes",
-	"GB": "gigabytes",
+    "GB": "gigabytes",
     "hugepages": "number of pages in memory that are larger than the default page size",
     "I/O": "disk input and output",
 	"KB": "kilobyte",
