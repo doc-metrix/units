@@ -1,9 +1,6 @@
 {
     "A": "ampere",
     "C": "celcius",
-    "reads": "number of reads",
-    "sectors": "number of sectors",
-    "writes": "number of writes",
     "GB": "gigabytes (in base 10, for example 1 gigabyte consists of 1000 megabytes)",
     "GiB": "gibibytes (in base 2, for example 1 gibibyte consists of 1024 mebibytes)",
     "hugepages": "number of pages in memory that are larger than the default page size",
