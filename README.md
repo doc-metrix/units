@@ -140,7 +140,7 @@ rpm: revolutions per minute.
 
 #### utilization
 
-utilization: describes a unitless value indicating the extent to which a device is utilized.
+[utilization](http://en.wikipedia.org/wiki/Load_(computing)#CPU_load_vs_CPU_utilization): describes a unitless value indicating the extent to which a device is utilized.
 
 
 
