@@ -70,44 +70,45 @@ A metric may have one of the following units...
 
 #### KB
 
-kilobytes: 1 `kilobyte` consists of 1000 `bytes`.
+[kilobytes](http://en.wikipedia.org/wiki/Kilobyte): 1 `kilobyte` consists of 1000 `bytes`.
 
 
 #### KiB
 
-kibibyte: 1 `kibibyte` consists of 1024 `bytes`.
+[kibibyte](http://en.wikipedia.org/wiki/Kibibyte): 1 `kibibyte` consists of 1024 `bytes`.
 
 
 #### MB
 
-megabytes: 1 `megabyte` consists of 1000 `kilobytes`.
+[megabytes](http://en.wikipedia.org/wiki/Megabyte): 1 `megabyte` consists of 1e6 `bytes`.
 
 
 #### MiB
 
-mebibyte: 1 `mebibyte` consists of 1024 `kilobytes`.
+[mebibyte](http://en.wikipedia.org/wiki/Mebibyte): 1 `mebibyte` consists of 1024^2 `bytes`.
 
 
 #### GB
 
-gigabyte: 1 `gigabyte` consists of 1000 `megabytes`.
+[gigabyte](http://en.wikipedia.org/wiki/Gigabyte): 1 `gigabyte` consists of 1e9 `bytes`.
 
 
 #### GiB
 
-gibibyte: 1 `gibibyte` consists of 1024 `megabytes`.
+[gibibyte](http://en.wikipedia.org/wiki/Gibibyte): 1 `gibibyte` consists of 1024^3 `bytes`.
 
 
 #### MB/s
 
-megabytes per second: 1 `megabyte` consists of 1000 `kilobytes`.
+[megabytes](http://en.wikipedia.org/wiki/Megabyte) per second: 1 `megabyte` consists of 1e6 `bytes`.
+
 
 ===
 ### Memory
 
 #### hugepages
 
-Number of pages in memory that are larger than the default page size.
+[hugepages](http://en.wikipedia.org/wiki/Page_(computer_memory)#Huge_pages): number of pages in memory that are larger than the default page size.
 
 
 ===
@@ -129,17 +130,17 @@ seconds: unit of measurement for time.
 
 #### I/O
 
-Input and output.
+I/O: input and output.
 
 
 #### rpm
 
-Revolutions per minute.
+rpm: revolutions per minute.
 
 
 #### utilization
 
-Describes a unitless value indicating the extent to which a device is utilized.
+utilization: describes a unitless value indicating the extent to which a device is utilized.
 
 
 
