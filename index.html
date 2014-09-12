@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Units by doc-metrix</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>Performance Metric Units</title>
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/pygment_trac.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -15,7 +19,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Units</h1>
+        <h1>Performance Metrics</h1>
         <p>Specification for units found in metric specifications.</p>
 
         <p class="view"><a href="https://github.com/doc-metrix/units">View the Project on GitHub <small>doc-metrix/units</small></a></p>
@@ -27,287 +31,16 @@
           <li><a href="https://github.com/doc-metrix/units">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
-      <section>
-        <h1>
-<a name="units" class="anchor" href="#units"><span class="octicon octicon-link"></span></a>Units</h1>
-
-<blockquote>
-<p>Specification of units found in metric specifications.</p>
-</blockquote>
-
-<h2>
-<a name="table-of-contents" class="anchor" href="#table-of-contents"><span class="octicon octicon-link"></span></a>Table of Contents</h2>
-
-<ol>
-<li> <a href="#units">Units</a>
-
-<ul>
-<li>  <a href="#current">Current</a>
-
-<ul>
-<li>  <a href="#a">A</a>
-</li>
-</ul>
-</li>
-<li>  <a href="#voltage">Voltage</a>
-
-<ul>
-<li>  <a href="#v">V</a>
-</li>
-</ul>
-</li>
-<li>  <a href="#temperature">Temperature</a>
-
-<ul>
-<li>  <a href="#c">C</a>
-</li>
-</ul>
-</li>
-<li>  <a href="#digitial-information">Digital Information</a>
-
-<ul>
-<li>  <a href="#kb">KB</a>
-</li>
-<li>  <a href="#kib">KiB</a>
-</li>
-<li>  <a href="#mb">MB</a>
-</li>
-<li>  <a href="#mib">MiB</a>
-</li>
-<li>  <a href="#gb">GB</a>
-</li>
-<li>  <a href="#gib">GiB</a>
-</li>
-<li>  <a href="#mbs">MB/s</a>
-</li>
-</ul>
-</li>
-<li>  <a href="#memory">Memory</a>
-
-<ul>
-<li>  <a href="#hugepages">hugepages</a>
-</li>
-</ul>
-</li>
-<li>  <a href="#time">Time</a>
-
-<ul>
-<li>  <a href="#ms">ms</a>
-</li>
-<li>  <a href="#s">s</a>
-</li>
-</ul>
-</li>
-<li>  <a href="#other">Other</a>
-
-<ul>
-<li>  <a href="#io">I/O</a>
-</li>
-<li>  <a href="#rpm">rpm</a>
-</li>
-<li>  <a href="#utilization">utilization</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li> <a href="#contributing">Contributing</a>
-</li>
-<li> <a href="#usage">Usage</a>
-
-<ul>
-<li>  <a href="#bower">Bower</a>
-</li>
-</ul>
-</li>
-<li> <a href="#license">License</a>
-</li>
-</ol><h2>
-<a name="units-1" class="anchor" href="#units-1"><span class="octicon octicon-link"></span></a>Units</h2>
-
-<p>A metric may have one of the following units... </p>
-
-<h1></h1>
-
-<h3>
-<a name="current" class="anchor" href="#current"><span class="octicon octicon-link"></span></a>Current</h3>
-
-<h4>
-<a name="a" class="anchor" href="#a"><span class="octicon octicon-link"></span></a>A</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Ampere">ampere</a>: the amount of electric charge passing a point in an electric circuit per unit time.</p>
-
-<h1></h1>
-
-<h3>
-<a name="voltage" class="anchor" href="#voltage"><span class="octicon octicon-link"></span></a>Voltage</h3>
-
-<h4>
-<a name="v" class="anchor" href="#v"><span class="octicon octicon-link"></span></a>V</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Volt">volt</a>: the difference in electric potential between two points of a conducting wire when an electric current of one ampere dissipates one watt of power between those points.</p>
-
-<h1></h1>
-
-<h3>
-<a name="temperature" class="anchor" href="#temperature"><span class="octicon octicon-link"></span></a>Temperature</h3>
-
-<h4>
-<a name="c" class="anchor" href="#c"><span class="octicon octicon-link"></span></a>C</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Celsius">Celsius</a>: unit of measurement for temperature.</p>
-
-<h1></h1>
-
-<h3>
-<a name="digital-information" class="anchor" href="#digital-information"><span class="octicon octicon-link"></span></a>Digital Information</h3>
-
-<h4>
-<a name="kb" class="anchor" href="#kb"><span class="octicon octicon-link"></span></a>KB</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Kilobyte">kilobytes</a>: 1 <code>kilobyte</code> consists of 1000 <code>bytes</code>.</p>
-
-<h4>
-<a name="kib" class="anchor" href="#kib"><span class="octicon octicon-link"></span></a>KiB</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Kibibyte">kibibyte</a>: 1 <code>kibibyte</code> consists of 1024 <code>bytes</code>.</p>
-
-<h4>
-<a name="mb" class="anchor" href="#mb"><span class="octicon octicon-link"></span></a>MB</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Megabyte">megabytes</a>: 1 <code>megabyte</code> consists of 1e6 <code>bytes</code>.</p>
-
-<h4>
-<a name="mib" class="anchor" href="#mib"><span class="octicon octicon-link"></span></a>MiB</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Mebibyte">mebibyte</a>: 1 <code>mebibyte</code> consists of 1024^2 <code>bytes</code>.</p>
-
-<h4>
-<a name="gb" class="anchor" href="#gb"><span class="octicon octicon-link"></span></a>GB</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Gigabyte">gigabyte</a>: 1 <code>gigabyte</code> consists of 1e9 <code>bytes</code>.</p>
-
-<h4>
-<a name="gib" class="anchor" href="#gib"><span class="octicon octicon-link"></span></a>GiB</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Gibibyte">gibibyte</a>: 1 <code>gibibyte</code> consists of 1024^3 <code>bytes</code>.</p>
-
-<h4>
-<a name="mbs" class="anchor" href="#mbs"><span class="octicon octicon-link"></span></a>MB/s</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Megabyte">megabytes</a> per second: 1 <code>megabyte</code> consists of 1e6 <code>bytes</code>.</p>
-
-<h1></h1>
-
-<h3>
-<a name="memory" class="anchor" href="#memory"><span class="octicon octicon-link"></span></a>Memory</h3>
-
-<h4>
-<a name="hugepages" class="anchor" href="#hugepages"><span class="octicon octicon-link"></span></a>hugepages</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Page_(computer_memory)#Huge_pages">hugepages</a>: number of pages in memory that are larger than the default page size.</p>
-
-<h1></h1>
-
-<h3>
-<a name="time" class="anchor" href="#time"><span class="octicon octicon-link"></span></a>Time</h3>
-
-<h4>
-<a name="ms" class="anchor" href="#ms"><span class="octicon octicon-link"></span></a>ms</h4>
-
-<p>milliseconds: unit of measurement for time.</p>
-
-<h4>
-<a name="s" class="anchor" href="#s"><span class="octicon octicon-link"></span></a>s</h4>
-
-<p>seconds: unit of measurement for time.</p>
-
-<h1></h1>
-
-<h3>
-<a name="other" class="anchor" href="#other"><span class="octicon octicon-link"></span></a>Other</h3>
-
-<h4>
-<a name="io" class="anchor" href="#io"><span class="octicon octicon-link"></span></a>I/O</h4>
-
-<p>I/O: input and output.</p>
-
-<h4>
-<a name="rpm" class="anchor" href="#rpm"><span class="octicon octicon-link"></span></a>rpm</h4>
-
-<p>rpm: revolutions per minute.</p>
-
-<h4>
-<a name="utilization" class="anchor" href="#utilization"><span class="octicon octicon-link"></span></a>utilization</h4>
-
-<p><a href="http://en.wikipedia.org/wiki/Load_(computing)#CPU_load_vs_CPU_utilization">utilization</a>: describes a unitless value indicating the extent to which a device is utilized.</p>
-
-<h1></h1>
-
-<h2>
-<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
-
-<p>To contribute to the data-type specification, see the contributing <a href="https://github.com/doc-metrix/contributing">guide</a>. Any updates to the specification should be tagged.</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>git tag -a &lt;major.minor.patch&gt; -m <span class="s2">"[UPDATE] version."</span>
-<span class="nv">$ </span>git push origin &lt;major.minor.patch&gt;
-</pre></div>
-
-<p>Use <a href="http://semver.org/">semantic versioning</a> (semvar) for communicating versions.</p>
-
-<ul>
-<li>  Any new units should be communicated as <code>minor</code> updates.</li>
-<li>  Any corrections/value modifications should be <code>patches</code>.</li>
-<li>  Any specification restructuring (changing field names, removing fields, etc) should be communicated as a <code>major</code> update.</li>
-</ul><h1></h1>
-
-<h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
-
-<p>The specification is stored as <a href="http://json.org/">JSON</a>, a lightweight data-interchange format. Many languages provide JSON support: <a href="http://www.json.org/js.html">JavaScript</a>, <a href="https://docs.python.org/2/library/json.html">Python</a>, <a href="http://golang.org/pkg/encoding/json/">Go</a>, <a href="http://php.net/manual/en/book.json.php">PHP</a>, <a href="http://json.org/java/">Java</a>, <a href="http://hackage.haskell.org/package/json">Haskell</a>, and <a href="http://json.org/">others</a>.</p>
-
-<p>You are free to use the JSON specification, as is. Simply copy the file and use accordingly.</p>
-
-<p>For those using package managers to manage dependencies, we provide package manager support, as outlined below.</p>
-
-<h3>
-<a name="bower" class="anchor" href="#bower"><span class="octicon octicon-link"></span></a>Bower</h3>
-
-<p>The specification is registered as a <a href="http://bower.io">Bower</a> package. Bower provides a straightforward means for managing dependencies.</p>
-
-<p>In order to use Bower, you must first install <a href="http://nodejs.org/">Node.js</a> and <a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Git</a>. Once the prerequisites are installed,</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>npm install -g bower
-</pre></div>
-
-<p>To <a href="http://bower.io/docs/api/#install">install</a> the latest specification,</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>bower install doc-metrix-units
-</pre></div>
-
-<p>Bower will place the specification in a <code>bower_components/</code> directory within the current working directory.</p>
-
-<p>To <a href="http://bower.io/docs/api/#update">update</a> to the latest specification,</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>bower update doc-metrix-units
-</pre></div>
-
-<h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
-
-<p><a href="http://opensource.org/licenses/MIT">MIT license</a>. </p>
-
-<hr><h2>
-<a name="copyright" class="anchor" href="#copyright"><span class="octicon octicon-link"></span></a>Copyright</h2>
-
-<p>Copyright © 2014. NodePrime.</p>
-      </section>
+      <section id="readme"></section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/doc-metrix">doc-metrix</a></p>
+        <p>This project is maintained by <a href="https://github.com/doc-metrix">doc-metrix</a> and initially sponsored by <a href="http://nodeprime.com">NodePrime.</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/scale.fix.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     
   </body>
 </html>
