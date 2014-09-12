@@ -113,6 +113,26 @@
 	*/
 	function onResource( html ) {
 		document.getElementById( 'readme' ).innerHTML = html;
+		fixRelativeLinks();
 	} // end FUNCTION onResource()
+
+	/**
+	* FUNCTION: fixRelativeLinks()
+	*	Fixes relative links by adding a prefix.
+	*
+	* @private
+	*/
+	function fixRelativeLinks() {
+		var links = document.querySelectorAll( 'a' ),
+			href;
+
+		for ( var i = 0; i < links.length; i++ ) {
+			href = links[ i ].getAttribute( 'href' );
+			if ( href[ 0 ] === '#' ) {
+				href = href[ 0 ] + 'user-content-' + href.substr( 1 );
+			}
+			links[ i ].setAttribute( 'href', href );
+		}
+	} // end FUNCTION fixRelativeLinks()
 
 })();
