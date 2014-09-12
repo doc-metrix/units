@@ -15,12 +15,14 @@ Units
 		*	[C](#c)
 	-	[Digital Information](#digitial-information)
 		*	[KB](#kb)
+		*	[KiB](#kib)
+		*	[MB](#mb)
+		*	[MiB](#mib)
 		*	[GB](#gb)
+		*	[GiB](#gib)
 		* 	[MB/s](#mbs)
 	- 	[Memory](#memory)
 		*	[hugepages](#hugepages)
-	- 	[CPU](#cpu)
-		*	[processes and threads](#processes-and-threads)
 	- 	[Time](#time)
 		*	[ms](#ms)
 		*	[s](#s)
@@ -60,7 +62,7 @@ A metric may have one of the following units...
 
 #### C
 
-[celsuis](http://en.wikipedia.org/wiki/Celsius): unit of measurement for temperature.
+[Celsius](http://en.wikipedia.org/wiki/Celsius): unit of measurement for temperature.
 
 
 ===
@@ -68,17 +70,37 @@ A metric may have one of the following units...
 
 #### KB
 
-kilobyte: 1024 bytes.
+kilobytes: 1 `kilobyte` consists of 1000 `bytes`.
+
+
+#### KiB
+
+kibibyte: 1 `kibibyte` consists of 1024 `bytes`.
+
+
+#### MB
+
+megabytes: 1 `megabyte` consists of 1000 `kilobytes`.
+
+
+#### MiB
+
+mebibyte: 1 `mebibyte` consists of 1024 `kilobytes`.
 
 
 #### GB
 
-gigabyte: 1,073,741,824 bytes.
+gigabyte: 1 `gigabyte` consists of 1000 `megabytes`.
+
+
+#### GiB
+
+gibibyte: 1 `gibibyte` consists of 1024 `megabytes`.
 
 
 #### MB/s
 
-megabytes per second: 1,048,576 bytes per second.
+megabytes per second: 1 `megabyte` consists of 1000 `kilobytes`.
 
 ===
 ### Memory
@@ -86,14 +108,6 @@ megabytes per second: 1,048,576 bytes per second.
 #### hugepages
 
 Number of pages in memory that are larger than the default page size.
-
-
-===
-### CPU
-
-#### processes and threads
-
-Number of CPU processes and threads.
 
 
 ===
