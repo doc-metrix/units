@@ -14,6 +14,7 @@ Units
 	- 	[Temperature](#temperature)
 		*	[C](#c)
 	-	[Digital Information](#digitial-information)
+		*	[b](#b)
 		* 	[B](#b)
 		*	[KB](#kb)
 		*	[KiB](#kib)
@@ -68,6 +69,10 @@ A metric may have one of the following units...
 
 ===
 ### Digital Information
+
+#### b
+
+[bit](http://en.wikipedia.org/wiki/Bit): basic unit of digital information.
 
 #### B
 
