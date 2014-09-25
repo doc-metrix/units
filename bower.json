@@ -1,21 +1,20 @@
 {
   "name": "doc-metrix-units",
   "version": "0.0.0",
-  "description": "A specification for units found in metric specifications.",
+  "description": "Units found in metric documentation.",
   "authors": [
     {
       "name": "Nick Wei",
       "email": "nick@nodeprime.com"
     }
   ],
-  "main": "spec/index.json",
+  "main": "doc/index.json",
   "repository": {
     "type": "git",
     "url": "git://github.com/doc-metrix/units.git"
   },
   "keywords": [
     "doc-metrix",
-    "specification",
     "units",
     "metrics",
     "documentation"
